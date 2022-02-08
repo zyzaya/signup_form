@@ -70,4 +70,23 @@ body > div {
 
 .right_content {
   background-color: white;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+form:first-child {
+  width: 100%;
+}
+
+.right_content > form {
+  
+  box-shadow: 10px 10px 8px #888888;
+}
+
+.inputs {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
