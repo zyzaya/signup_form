@@ -68,12 +68,22 @@ body > div {
   color: rgb(209, 209, 209);
 }
 
-.right_content {
+.right {
   background-color: rgb(245, 245, 245);
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+}
+
+p {
+  margin: 5% 6%;
+  font-size: large;
+}
+
+.right_content {
+  margin: 25% 0;
+  height: 50%;
 }
 
 form:first-child {
