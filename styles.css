@@ -90,17 +90,22 @@ form > div > div {
   color: #272727;
 }
 
-form > input {
+.choices {
   margin: 2% 6%;
+  background-color: rgb(245, 245, 245);
 }
 
 .submit {
   background-color: #596D48;
   color: white;
-  margin-top: 7%;
+  margin: 7% 0;
   padding: 3% 7%;
   border-radius: 7px;
   font-size: larger;
+}
+
+.submit:hover {
+  cursor: pointer;
 }
 
 .inputs {
@@ -139,4 +144,9 @@ input:focus-visible {
 
 .error_input:focus-visible {
   outline: rgb(209, 61, 61) solid 1px;
+}
+
+a {
+  color: #596D48;
+  text-decoration: none;
 }
