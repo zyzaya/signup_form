@@ -94,6 +94,15 @@ form > input {
   margin: 2% 6%;
 }
 
+.submit {
+  background-color: #596D48;
+  color: white;
+  margin-top: 7%;
+  padding: 3% 7%;
+  border-radius: 7px;
+  font-size: larger;
+}
+
 .inputs {
   display: flex;
   justify-content: space-around;
@@ -109,7 +118,6 @@ form > input {
 }
 
 input {
-  /* outline: #E5E7EB auto 1px; */
   border: 1px solid #E5E7EB 
 }
 
