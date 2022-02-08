@@ -117,11 +117,26 @@ form > input {
   text-transform: uppercase;
 }
 
+.error_text {
+  text-transform: none;
+  color: rgb(209, 61, 61)
+}
+
+.error_input {
+  box-shadow: none;
+  border: 1px solid rgb(209, 61, 61)
+}
+
 input {
-  border: 1px solid #E5E7EB 
+  border: 1px solid #E5E7EB ;
+  border-radius: 3px;
 }
 
 input:focus-visible {
   outline: #95b1e9 solid 1px;
   box-shadow: 0px 3px 3px #e4e4e4;
+}
+
+.error_input:focus-visible {
+  outline: rgb(209, 61, 61) solid 1px;
 }
